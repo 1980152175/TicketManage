@@ -34,30 +34,7 @@
         <asp:Button ID="btnToTicketMenu" runat="server" Text="订票" OnClick="btnToTicketMenu_Click" />
         <asp:Button ID="btnTicketOrder" runat="server" Text="我的订单" OnClick="btnTicketOrder_Click" />
     </div>--%>
-
-
-    <div>
-        <table style="width: 100%; height: 67%; background-color: #FF9966; margin-top:0px;">
-          <tr > 
-              <td >
-               <a href="Index.aspx" style="text-decoration: none"><img src="photos/首页.png" style="width: 52px; height: 63px"/></a>
-              </td>
-              <td>
-                <a href="TicketMenu.aspx" style="text-decoration: none"><img src="photos/购票.png"/></a>
-              </td>
-              <td >
-                 <a href="TicketMenu.aspx" style="text-decoration: none"><img src="photos/航班查询.png"/></a>
-                 </td>
-                  <td >
-                 <a href="MyTicketOrder.aspx" style="text-decoration: none"><img src="photos/我的订单.png"/></a>
-              </td>
-               <td class="style1">
-                 <a href="News.aspx" style="text-decoration: none"><img src="photos/新闻中心.png"/></a>
-              </td>
-          </tr>
-          </table>
-       </div>
-  
+    <!--
        <div style="position: relative; top: 1px; left: 0px; ">
          <div style="width: 600px; background-color: #FF66FF; height: 230px; float: left;">
           <table style="width: 100%; text-align:center; height: 223px;">
@@ -103,6 +80,14 @@
          <div style="background-color: #C0C0C0;height:240px;width:480px;float:left;text-align:center;">投诉建议</div>
          <div style="background-color: #CC6699; height:240px;width:402px;float:left;text-align:center;">友情提示</div>
     </div>
-    
-    <div style="font-family: 华文隶书; font-size: large; color: #FF0000; background-color: #9933FF; height:18px; width:1332px; text-align:center;margin-top: 0px; margin-left: 0px; "></div>
+   <div style="font-family: 华文隶书; font-size: large; color: #FF0000; background-color: #9933FF; height:18px; width:1332px; text-align:center;margin-top: 0px; margin-left: 0px; "></div>-->
+
+
+    <div>
+        <div>行李服务</div>
+        <div>新闻资讯</div>
+        <div>客运常识</div>
+        <div></div>
+
+    </div>
 </asp:Content>

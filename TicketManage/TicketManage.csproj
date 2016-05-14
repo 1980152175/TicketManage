@@ -130,6 +130,7 @@
     <Content Include="AddPassengerInfo.aspx" />
     <Content Include="Admin\AdminIndex.aspx" />
     <Content Include="Admin\AdminLogin.aspx" />
+    <Content Include="Admin\BaggageManage.aspx" />
     <Content Include="Admin\CSS\TableStyle.css" />
     <Content Include="Admin\FlightAndDate.aspx" />
     <Content Include="Admin\FlightAndDateAdd.aspx" />
@@ -141,11 +142,15 @@
     <Content Include="Admin\FlightManageAdd.aspx" />
     <Content Include="Admin\FlightManageEdit.aspx" />
     <Content Include="Admin\NewsManage.aspx" />
+    <Content Include="Admin\PassengerManage.aspx" />
     <Content Include="Admin\ReportManage.aspx" />
     <Content Include="Admin\RouteManage.aspx" />
     <Content Include="Admin\RouteManageAdd.aspx" />
     <Content Include="Admin\RouteManageEdit.aspx" />
+    <Content Include="Admin\ShipType.aspx" />
     <Content Include="Admin\TicketOrderManage.aspx" />
+    <Content Include="Admin\UserManage.aspx" />
+    <Content Include="Admin\UserTypeManage.aspx" />
     <Content Include="BuyTicketProcess.aspx" />
     <Content Include="ChangePassword.aspx" />
     <Content Include="Images\admin\AdminLoginPic.png" />
@@ -277,10 +282,16 @@
     <Content Include="Scripts\js\My97DatePicker\WdatePicker.js" />
     <Content Include="TicketCreateOrder.aspx" />
     <Content Include="TicketMenu.aspx" />
+    <Content Include="UserCenter.aspx" />
     <Content Include="UserInfo.aspx" />
     <Content Include="WebForm1.aspx" />
     <Content Include="photos\h42.psd" />
     <Content Include="photos\h44.psd" />
+    <Content Include="余票查询.aspx" />
+    <Content Include="友情提示.aspx" />
+    <Content Include="客运.aspx" />
+    <Content Include="客运常识.aspx" />
+    <Content Include="已完成订单.aspx" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -317,6 +328,7 @@
     <Content Include="Scripts\js\My97DatePicker\skin\Thumbs.db" />
     <Content Include="Scripts\js\My97DatePicker\skin\whyGreen\Thumbs.db" />
     <None Include="Scripts\_references.js" />
+    <Content Include="UserCenter.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -352,6 +364,13 @@
     </Compile>
     <Compile Include="Admin\AdminMaster.Master.designer.cs">
       <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BaggageManage.aspx.cs">
+      <DependentUpon>BaggageManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BaggageManage.aspx.designer.cs">
+      <DependentUpon>BaggageManage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\FlightAndDate.aspx.cs">
       <DependentUpon>FlightAndDate.aspx</DependentUpon>
@@ -423,6 +442,13 @@
     <Compile Include="Admin\NewsManage.aspx.designer.cs">
       <DependentUpon>NewsManage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\PassengerManage.aspx.cs">
+      <DependentUpon>PassengerManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PassengerManage.aspx.designer.cs">
+      <DependentUpon>PassengerManage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\ReportManage.aspx.cs">
       <DependentUpon>ReportManage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -451,12 +477,33 @@
     <Compile Include="Admin\RouteManageEdit.aspx.designer.cs">
       <DependentUpon>RouteManageEdit.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\ShipType.aspx.cs">
+      <DependentUpon>ShipType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ShipType.aspx.designer.cs">
+      <DependentUpon>ShipType.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\TicketOrderManage.aspx.cs">
       <DependentUpon>TicketOrderManage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin\TicketOrderManage.aspx.designer.cs">
       <DependentUpon>TicketOrderManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserManage.aspx.cs">
+      <DependentUpon>UserManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserManage.aspx.designer.cs">
+      <DependentUpon>UserManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserTypeManage.aspx.cs">
+      <DependentUpon>UserTypeManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserTypeManage.aspx.designer.cs">
+      <DependentUpon>UserTypeManage.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
@@ -549,6 +596,20 @@
     <Compile Include="TicketMenu.aspx.designer.cs">
       <DependentUpon>TicketMenu.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UserCenter.aspx.cs">
+      <DependentUpon>UserCenter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserCenter.aspx.designer.cs">
+      <DependentUpon>UserCenter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserCenter.Master.cs">
+      <DependentUpon>UserCenter.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserCenter.Master.designer.cs">
+      <DependentUpon>UserCenter.Master</DependentUpon>
+    </Compile>
     <Compile Include="UserInfo.aspx.cs">
       <DependentUpon>UserInfo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -562,6 +623,41 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="余票查询.aspx.cs">
+      <DependentUpon>余票查询.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="余票查询.aspx.designer.cs">
+      <DependentUpon>余票查询.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="友情提示.aspx.cs">
+      <DependentUpon>友情提示.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="友情提示.aspx.designer.cs">
+      <DependentUpon>友情提示.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="客运.aspx.cs">
+      <DependentUpon>客运.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="客运.aspx.designer.cs">
+      <DependentUpon>客运.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="客运常识.aspx.cs">
+      <DependentUpon>客运常识.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="客运常识.aspx.designer.cs">
+      <DependentUpon>客运常识.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="已完成订单.aspx.cs">
+      <DependentUpon>已完成订单.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="已完成订单.aspx.designer.cs">
+      <DependentUpon>已完成订单.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

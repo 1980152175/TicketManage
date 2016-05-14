@@ -44,6 +44,7 @@ namespace TicketManage
                 Session["UserId"] = UserId;
                 if (string.IsNullOrEmpty(Request.QueryString["url"]))
                 {
+                    Session["UserName"] = this.txtLoginName.Text; 
                     Response.Redirect("Index.aspx");//跳转页面                    
                 }
                 else

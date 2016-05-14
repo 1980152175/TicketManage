@@ -10,7 +10,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div style="background-image: url('photos/beijing001.jpg'); height: 209px; width: 100%">
+       <div style="position: relative">
+        <div style="background-image: url('photos/beijing001.jpg');  height: 30%; width: 100%">
             <div style="margin-left: 0px; margin-top: 5px">
                 <a href="Index.aspx">
                     <img src="photos/logo.png" style="width: 217px; height: 73px;" />
@@ -37,11 +38,25 @@
                 <a href="Login.aspx" style="font-family: 华文隶书; font-size: x-large; font-weight: normal; color: #FF0000; text-decoration: none;">登录</a>
             </div>
 
+             <!--导航栏--->
+            <div style="background-color: #CCCCFF;width:100%; font-size: large; font-family: 方正姚体;height:47px;">
+                <div style="float:left; width: 14.2%;text-align :center;line-height: 40px; vertical-align: middle;"><a href="Index.aspx" style="text-decoration: none;">首页</a></div>
+                <div style="float:left; width: 14%; text-align :center;line-height: 40px; vertical-align: middle;"><a href="TicketMenu.aspx" style="text-decoration: none">订票</a></div>
+                <div style="float:left;width: 14.2%;text-align :center;line-height: 40px; vertical-align: middle;"><a href="余票查询.aspx" style="text-decoration: none">余票查询</a></div>
+                <div style="float:left;width: 14.2%;text-align :center;line-height: 40px; vertical-align: middle;"><a href="用户中心.aspx" style="text-decoration: none">用户中心</a></div>
+                <div style="float:left;width: 14.2%;text-align :center;line-height: 40px; vertical-align: middle;"><a href ="packages.aspx" style="text-decoration: none">行李服务</a></div>
+                <div style="float:left; width: 14.2%;text-align :center;line-height: 40px; vertical-align: middle;"><a href="News.aspx" style="text-decoration: none">新闻资讯</a></div>
+                <div style="float:left; width: 14.2%;text-align :center;line-height: 40px; vertical-align: middle;"><a href="客运常识.aspx" style="text-decoration: none">客运常识</a></div>
+           </div>
+
+            </div>
 
         </div>
+        <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
-        <div style="background-image: url('photos/beijing2.jpg'); height: 102px; margin-top: 500px; margin-left: 0px;">
+            </div>
+        <div style="background-image: url('photos/beijing2.jpg'); height: 102px;width:100%;margin-left: 0px;position:fixed ; ">
         </div>
 
     </form>
