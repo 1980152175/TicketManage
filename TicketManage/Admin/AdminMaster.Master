@@ -106,6 +106,19 @@
                     <asp:Label ID="lbReportManage" runat="server" Text="Label"><a href="ReportManage.aspx">报表管理</a>
                     </asp:Label>
                     <br />
+                    <asp:Label ID="lbAdminUser" runat="server" Text="Label"><a href="UserManage.aspx">用户管理</a>
+                    </asp:Label>
+                    <br />
+                    <asp:Label ID="lbUserTypeManage" runat="server" Text="Label"><a href="UserTypeManage.aspx">用户类型管理</a>
+                    </asp:Label>
+                     <br />
+                    <asp:Label ID="lbPassengerManage" runat="server" Text="Label"><a href="UserTypeManage.aspx">乘客管理</a>
+                    </asp:Label>
+                     <br />
+                    
+                   
+      
+                    <br />
                     <asp:Button ID="btnLogOut" runat="server" OnClick="btnLogOut_Click" Text="注销" />
                     <br />
                 </div>

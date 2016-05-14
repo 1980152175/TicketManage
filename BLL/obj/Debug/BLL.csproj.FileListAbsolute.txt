@@ -5,3 +5,10 @@ F:\1毕业各项事\陈建花毕设\TicketManage\BLL\obj\Debug\BLL.dll
 F:\1毕业各项事\陈建花毕设\TicketManage\BLL\obj\Debug\BLL.pdb
 F:\1毕业各项事\陈建花毕设\TicketManage\BLL\bin\DBCommon.dll
 F:\1毕业各项事\陈建花毕设\TicketManage\BLL\bin\DBCommon.pdb
+E:\hezuo\BLL\bin\BLL.dll
+E:\hezuo\BLL\bin\BLL.pdb
+E:\hezuo\BLL\bin\DBCommon.dll
+E:\hezuo\BLL\bin\DBCommon.pdb
+E:\hezuo\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\hezuo\BLL\obj\Debug\BLL.dll
+E:\hezuo\BLL\obj\Debug\BLL.pdb
