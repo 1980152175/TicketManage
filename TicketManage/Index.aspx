@@ -30,7 +30,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<%--    <div style="height: 300px;">
+    <%--    <div style="height: 300px;">
         <asp:Button ID="btnToTicketMenu" runat="server" Text="订票" OnClick="btnToTicketMenu_Click" />
         <asp:Button ID="btnTicketOrder" runat="server" Text="我的订单" OnClick="btnTicketOrder_Click" />
     </div>--%>
@@ -84,10 +84,55 @@
 
 
     <div>
-        <div>行李服务</div>
-        <div>新闻资讯</div>
-        <div>客运常识</div>
-        <div></div>
+       <div>
+        <div style="float:left; width:33%;height:200px;text-align:center;">
+            <a  style="text-decoration:none;" href ="News.aspx">新闻资讯</a>
+            <div style="text-align:left"> 
+                <ul>
+                    <li><a  style="text-decoration:none;" href ="News.aspx">国内船舶交易市场月度报告<br/></a></li>
+                    
+                    <li><a  style="text-decoration:none;" href ="News.aspx">和记港口宣布遵守《国际海上人命安全公约》新修订<br/> </a></li>
+                    <li><a  style="text-decoration:none;" href ="News.aspx">“一带一路”战略下的港口转型升级<br/></a></li>
+                    <li><a  style="text-decoration:none;" href ="News.aspx">全球船舶得了“事故传染症”？！<br/></a></li>
+                </ul>
+             </div>
+                </div>
+
+       
+        <div style="float:left; width:33%;height:200px;text-align:center;">
+             <a  style="text-decoration:none;" href ="News.aspx">行李服务</a>
+            <div style="text-align:left"> 
+                <ul>
+                    <li>行李规格须知<a  style="text-decoration:none;" href ="News.aspx"><br/></a></li>
+                    
+                    <li>不得携带的物品明细<a  style="text-decoration:none;" href ="News.aspx"><br/> </a></li>
+                    <li>行李遗失帮助<a  style="text-decoration:none;" href ="News.aspx"><br/></a></li>
+                    <li>行李托运<a  style="text-decoration:none;" href ="News.aspx"><br/></a></li>
+                </ul>
+             </div>
+         </div>
+
+        <div style="float:left; width:34%;height:200px;text-align:center;">
+            <a style="text-decoration:none;text-align:center" href="TransesportKnowledge.aspx">客运常识</a>
+                <div style="text-align:left"> 
+                <ul>
+                    <li><a  style="text-decoration:none;" href ="News.aspx">国内船舶交易市场月度报告<br/></a></li>
+                    
+                    <li><a  style="text-decoration:none;" href ="News.aspx">和公约》新修订<br/> </a></li>
+                    <li><a  style="text-decoration:none;" href ="News.aspx">“一带一升级<br/></a></li>
+                    <li><a  style="text-decoration:none;" href ="News.aspx">全球船传染症”？！<br/></a></li>
+                </ul>
+             </div>
+    
+    </div> 
+       
+        <div>
+         <div style="float:left; width:50%;height:130px;"></div>
+         <div style="float:left; width:50%;height:130px;"></div>
+        
+         </div>
 
     </div>
+    
+
 </asp:Content>

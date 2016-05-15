@@ -36,7 +36,7 @@
                     </tr>
                     <tr>
                         <td colspan="3" class="auto-style2">
-                            <asp:Button ID="Button1" runat="server" Text="修改" />
+                            <asp:Button ID="Button1" runat="server" Text="修改" OnClick="Button1_Click" />
                             &nbsp;&nbsp;
                     <asp:Button ID="Button2" runat="server" Text="取消" />
                         </td>
